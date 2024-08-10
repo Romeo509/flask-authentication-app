@@ -1,21 +1,26 @@
+# Flask Authentication System
 
-### Additional Steps:
-1. **Create the Repository**:
-   - Go to GitHub and create a new repository with the name `flask-authentication-app`.
-   - Follow the instructions to push your local code to the new repository.
+This project is a basic authentication system built using Flask and MySQL. It provides functionality for user registration, login, and logout.
 
-2. **Add a `.gitignore` File**:
-   - Ensure you have a `.gitignore` file to exclude unnecessary files. For Python projects, a typical `.gitignore` might include:
+## Features
 
-     ```
-     venv/
-     __pycache__/
-     *.pyc
-     *.pyo
-     .DS_Store
-     ```
+- User registration
+- User login
+- User logout
+- Session management
 
-3. **Add License** (Optional):
-   - If you want to include a license, you can add a `LICENSE` file. For example, for the MIT license, you can use the standard template.
+## Prerequisites
 
-This should help you set up your project repository effectively!
+- Python 3.x
+- Flask
+- Flask-MySQLdb
+- MySQL or MariaDB
+- XAMPP (for running MySQL locally)
+
+## Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/yourusername/flask-authentication.git
+   cd flask-authentication
